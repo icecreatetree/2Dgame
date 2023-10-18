@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F012E5C1-29B2-AD3D-B33D-4F41837CF392}</ProjectGuid>
+    <ProjectGuid>{F93AA5A7-4DB8-E983-2867-D1607B9B74DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,21 +56,21 @@
     <Analyzer Include="E:\Software\Microsoft Visual Studio\2022Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ProjectBase\UI\BasePanel.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\UI\UIManager.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Base\BaseManager.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoMgr.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\AStar\AStarNode.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Music\MusicMgr.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonAutoMono.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\Res\ResMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonMono.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\AStar\AStarMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\AStar\AStarNode.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonAutoMono.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\BasePanel.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Base\BaseManager.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Music\MusicMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Res\ResMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
